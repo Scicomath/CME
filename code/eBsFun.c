@@ -9,19 +9,9 @@
 #include "head/eBsFun.h"
 #include "head/constant.h"
 
-// const double alpha_EM = 1.0/137.0;
-// const double hbarc = 197.32696;
+
 const size_t warmCalls = 100000;
-// const size_t calls = 1000000;
-/*
-int main() {
-  double x = 0, y = 0, z = 0, t = 1, b = 12, Y0=4.2, Z=79.0, R=7.0;
-  double val = eBs_m_y(x, y, z, t, b, Y0, Z, R);
-  
-  printf("Computed result = %0.10g \n", val);
-  return 0;
-}
-*/
+
 double eBs_p_x(double x, double y, double z, double t, double b, double Y0, double Z, double R) {
   double eta = 0.5 * log((t+z)/(t-z));
   double tau = pow(t*t - z*z,0.5);

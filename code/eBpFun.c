@@ -9,18 +9,6 @@
 #include "head/eBpFun.h"
 #include "head/constant.h"
 
-// const double alpha_EM = 1.0/137.0;
-// const double hbarc = 197.32696;
-// const size_t calls = 2000000;
-/*
-int main() {
-  double x = 0.0, y = 0.0, z = 0.0, t = 1.0, b = 12, Y0=4.2, Z=79.0, R=7.0, a=0.5;
-  double val = eBp_p_y(x, y, z, t, b, Y0, Z, R, a);
-  
-  printf("Computed result = %0.10g \n", val);
-  return 0;
-}
-*/
 double eBp_p_x(double x, double y, double z, double t, double b, double Y0, double Z, double R, double a) {
   double eta = 0.5 * log((t+z)/(t-z));
   double tau = pow(t*t - z*z,0.5);
