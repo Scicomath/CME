@@ -26,6 +26,9 @@ $$\vec{E}(\vec{x}, t) = \frac{q}{4 \pi \varepsilon_0} \frac{1 - v^2 / c^2}{(1 - 
 $$\vec{B} = \frac{1}{c} (\hat{\vec{r}} \times \vec{E}) = \frac{1}{c^2} (\vec{v} \times \vec{E})$$
 其中$\vec{R} = \vec{x} - \vec{v} t$，是点电荷现在的位置到场点$\vec{x}$处的矢量。$\theta$是$\vec{R}$和$\vec{v}$之间的夹角。
 
+因此匀速运动的点电荷的磁场为
+$$\vec{B} = \frac{1}{c^2} \frac{1 - v^2/c^2}{(1 - v^2 \sin^2 \theta / c^2)^{3/2}} \frac{\vec{v} \times \hat{\vec{R}}}{R^2}$$
+
 ### 洛伦兹变换求点电荷磁场
 
 
